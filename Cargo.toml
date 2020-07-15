@@ -1,6 +1,6 @@
 [package]
 name = "eonil_apple_oslog"
-version = "0.0.0"
+version = "0.1.0"
 authors = ["eonil <pub.dev@eonil.com>"]
 edition = "2018"
 
