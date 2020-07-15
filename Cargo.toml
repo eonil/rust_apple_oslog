@@ -5,6 +5,8 @@ authors = ["eonil <pub.dev@eonil.com>"]
 edition = "2018"
 description = "Mapped function to Apple's `os_log` function with default parameters."
 license = "MIT"
+homepage = "https://github.com/eonil/rust_apple_oslog"
+repository = "https://github.com/eonil/rust_apple_oslog"
 
 [dependencies]
 libc = "0.2.72"
