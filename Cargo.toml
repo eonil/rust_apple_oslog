@@ -3,7 +3,8 @@ name = "eonil_apple_oslog"
 version = "0.1.0"
 authors = ["eonil <pub.dev@eonil.com>"]
 edition = "2018"
-
+description = "Mapped function to Apple's `os_log` function with default parameters."
+license = "MIT"
 
 [dependencies]
 libc = "0.2.72"
