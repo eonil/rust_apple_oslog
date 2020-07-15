@@ -11,6 +11,13 @@ Dead-simple call to Apple's `os_log` function. (system level log facility)
 How to Use
 ----------
 
+Add dependency to your `Cargo.toml`.
+
+[dependency]
+eonil_apple_oslog = { git = "https://github.com/eonil/rust_apple_oslog", tag = "0.1.0" }
+
+Call the function.
+
     use eonil_apple_oslog::oslog_default;
 
     fn main() {
