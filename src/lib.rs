@@ -5,7 +5,7 @@ use std::ffi::CStr;
 use std::ffi::CString;
 mod c;
 
-fn os_log_default(msg:&str) {
+pub fn os_log_default(msg:&str) {
     let s = CString::new(msg).expect("Converting into C string failed.");
     let x: &CStr = &s;
     unsafe {
