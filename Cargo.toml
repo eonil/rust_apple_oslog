@@ -1,0 +1,13 @@
+[package]
+name = "rust_apple_oslog"
+version = "0.0.0"
+authors = ["eonil <pub.dev@eonil.com>"]
+edition = "2018"
+
+
+[dependencies]
+libc = "0.2.72"
+
+[build-dependencies]
+cc = "1.0.58"
+
